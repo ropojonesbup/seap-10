@@ -13,3 +13,6 @@ Commit your chnages to the repository. a permanent save to create a version of y
 Global Configuration Setting for Git
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
+
+Push data in your local repositiory to your remote repository
+    git push 
