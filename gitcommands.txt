@@ -27,3 +27,6 @@ List all the existing branches in yout repositiory
 
 Create a new git branch
     git branch nameofbranch
+
+Navigate between git branch
+    git branch nameofbranch
