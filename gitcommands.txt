@@ -1,9 +1,11 @@
 Create a local Git Repositiory
     git init
 
-Link local repository to remote git 
+Link local repository to remote repositiory git 
     git remote add origin url
 
+Link local repository branch to remote repository branch git 
+    git push --set-upstream origin master
 Check the state of the remote repository
     git remote -v
 
@@ -16,3 +18,12 @@ Global Configuration Setting for Git
 
 Push data in your local repositiory to your remote repository
     git push 
+
+Fetch data from your remote repositiory to your local repository
+    git push 
+
+List all the existing branches in yout repositiory
+    git branch --list
+
+Create a new git branch
+    git branch nameofbranch
