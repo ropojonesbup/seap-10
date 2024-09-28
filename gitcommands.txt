@@ -1,0 +1,29 @@
+Create a local Git Repositiory
+    git init
+
+Link local repository to remote repositiory git 
+    git remote add origin url
+
+Link local repository branch to remote repository branch git 
+    git push --set-upstream origin master
+Check the state of the remote repository
+    git remote -v
+
+Commit your chnages to the repository. a permanent save to create a version of your source code
+ git commit -m "information about version"
+
+Global Configuration Setting for Git
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
+Push data in your local repositiory to your remote repository
+    git push 
+
+Fetch data from your remote repositiory to your local repository
+    git push 
+
+List all the existing branches in yout repositiory
+    git branch --list
+
+Create a new git branch
+    git branch nameofbranch

@@ -1,0 +1,419 @@
+PS C:\SEAP-10> git remove origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+PS C:\SEAP-10> git remote origin
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\SEAP-10> git init
+Initialized empty Git repository in C:/SEAP-10/.git/
+PS C:\SEAP-10> git remote remove origin
+error: No such remote: 'origin'
+PS C:\SEAP-10> git remote remove origin https://github.com/ropojonesbup/seap-10.git
+usage: git remote remove <name>
+
+PS C:\SEAP-10> git remote add origin https://github.com/ropojonesbup/seap-10.git   
+PS C:\SEAP-10> git add .
+PS C:\SEAP-10> git commit -m "Initialization"
+[master (root-commit) 0868c15] Initialization
+ 65 files changed, 1267 insertions(+)
+ create mode 100644 EXAMPLES/.vscode/java-formatter.xml
+ create mode 100644 EXAMPLES/.vscode/settings.json
+ create mode 100644 EXAMPLES/C#/C#.csproj
+ create mode 100644 EXAMPLES/C#/HelloWorld.cs
+ create mode 100644 EXAMPLES/C#/bin/Debug/net8.0/C#.deps.json
+ create mode 100644 EXAMPLES/C#/bin/Debug/net8.0/C#.dll
+ create mode 100644 EXAMPLES/C#/bin/Debug/net8.0/C#.exe
+ create mode 100644 EXAMPLES/C#/bin/Debug/net8.0/C#.pdb
+ create mode 100644 EXAMPLES/C#/bin/Debug/net8.0/C#.runtimeconfig.json
+ create mode 100644 EXAMPLES/C#/obj/C#.csproj.nuget.dgspec.json
+ create mode 100644 EXAMPLES/C#/obj/C#.csproj.nuget.g.props
+ create mode 100644 EXAMPLES/C#/obj/C#.csproj.nuget.g.targets
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.AssemblyInfo.cs
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.AssemblyInfoInputs.cache
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.GlobalUsings.g.cs
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.assets.cache
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.csproj.CoreCompileInputs.cache
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.csproj.FileListAbsolute.txt
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.dll
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.genruntimeconfig.cache
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/C#.pdb
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/apphost.exe
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/ref/C#.dll
+ create mode 100644 EXAMPLES/C#/obj/Debug/net8.0/refint/C#.dll
+ create mode 100644 EXAMPLES/C#/obj/project.assets.json
+ create mode 100644 EXAMPLES/C#/obj/project.nuget.cache
+ create mode 100644 EXAMPLES/Python/App.py
+ create mode 100644 EXAMPLES/Python/HelloWorld.py
+ create mode 100644 EXAMPLES/TypeScript/HelloWorld.ts
+ create mode 100644 EXAMPLES/TypeScript/tsconfig.json
+ create mode 100644 EXAMPLES/WebApplication1.sln
+ create mode 100644 EXAMPLES/java/App.class
+ create mode 100644 EXAMPLES/java/App.java
+ create mode 100644 EXAMPLES/java/HelloWorld.class
+ create mode 100644 EXAMPLES/java/HelloWorld.java
+ create mode 100644 PROJECTS/Banking/Banking.sln
+ create mode 100644 PROJECTS/Banking/C#/Banking.cs
+ create mode 100644 PROJECTS/Banking/C#/C#.csproj
+ create mode 100644 PROJECTS/Banking/C#/bin/Debug/net8.0/C#.deps.json
+ create mode 100644 PROJECTS/Banking/C#/bin/Debug/net8.0/C#.dll
+ create mode 100644 PROJECTS/Banking/C#/bin/Debug/net8.0/C#.exe
+ create mode 100644 PROJECTS/Banking/C#/bin/Debug/net8.0/C#.pdb
+ create mode 100644 PROJECTS/Banking/C#/bin/Debug/net8.0/C#.runtimeconfig.json
+ create mode 100644 PROJECTS/Banking/C#/obj/C#.csproj.nuget.dgspec.json
+ create mode 100644 PROJECTS/Banking/C#/obj/C#.csproj.nuget.g.props
+ create mode 100644 PROJECTS/Banking/C#/obj/C#.csproj.nuget.g.targets
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.AssemblyInfo.cs
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.AssemblyInfoInputs.cache
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.GlobalUsings.g.cs
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.assets.cache
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.csproj.CoreCompileInputs.cache
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.csproj.FileListAbsolute.txt
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.dll
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.genruntimeconfig.cache
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/C#.pdb
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/apphost.exe
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/ref/C#.dll
+ create mode 100644 PROJECTS/Banking/C#/obj/Debug/net8.0/refint/C#.dll
+ create mode 100644 PROJECTS/Banking/C#/obj/project.assets.json
+ create mode 100644 PROJECTS/Banking/C#/obj/project.nuget.cache
+ create mode 100644 PROJECTS/Banking/Python/App.py
+PS C:\SEAP-10> git remote -v
+origin  https://github.com/ropojonesbup/seap-10.git (fetch)
+origin  https://github.com/ropojonesbup/seap-10.git (push)
+PS C:\SEAP-10> git fetch
+remote: Enumerating objects: 84, done.
+remote: Counting objects: 100% (84/84), done.
+remote: Compressing objects: 100% (44/44), done.
+remote: Total 84 (delta 23), reused 81 (delta 23), pack-reused 0 (from 0)
+Unpacking objects: 100% (84/84), 86.54 KiB | 76.00 KiB/s, done.
+From https://github.com/ropojonesbup/seap-10
+ * [new branch]      main       -> origin/main
+ * [new branch]      master     -> origin/master
+PS C:\SEAP-10> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\SEAP-10> git push --set-upstream origin master
+remote: Permission to ropojonesbup/seap-10.git denied to LilWilli.
+fatal: unable to access 'https://github.com/ropojonesbup/seap-10.git/': The requested URL returned error: 403
+PS C:\SEAP-10> git push --set-upstream origin master
+remote: Permission to ropojonesbup/seap-10.git denied to LilWilli.
+fatal: unable to access 'https://github.com/ropojonesbup/seap-10.git/': The requested URL returned error: 403
+PS C:\SEAP-10> git push --set-upstream origin master
+remote: Permission to ropojonesbup/seap-10.git denied to LilWilli.
+fatal: unable to access 'https://github.com/ropojonesbup/seap-10.git/': The requested URL returned error: 403
+PS C:\SEAP-10> git push --set-upstream origin master
+remote: Permission to ropojonesbup/seap-10.git denied to LilWilli.
+fatal: unable to access 'https://github.com/ropojonesbup/seap-10.git/': The requested URL returned error: 403
+PS C:\SEAP-10> git push --set-upstream origin master
+To https://github.com/ropojonesbup/seap-10.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ropojonesbup/seap-10.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\SEAP-10> git fetch
+PS C:\SEAP-10> git add .
+PS C:\SEAP-10> git commit -m "Initialization"
+On branch master
+nothing to commit, working tree clean
+PS C:\SEAP-10> git push --set-upstream origin master
+To https://github.com/ropojonesbup/seap-10.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ropojonesbup/seap-10.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\SEAP-10> git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+PS C:\SEAP-10> git branch --set-upstream-to=origin/master master  
+branch 'master' set up to track 'origin/master'.
+PS C:\SEAP-10> git pull
+fatal: refusing to merge unrelated histories
+PS C:\SEAP-10> git fetch
+PS C:\SEAP-10> git add .
+PS C:\SEAP-10> git commit -m "Initialization"
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 5 different commits each, respectively.
+
+nothing to commit, working tree clean
+PS C:\SEAP-10> git commit -m "Initialize"    
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 5 different commits each, respectively.
+
+nothing to commit, working tree clean
+PS C:\SEAP-10> git push --set-upstream origin master
+To https://github.com/ropojonesbup/seap-10.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ropojonesbup/seap-10.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\SEAP-10> git push
+To https://github.com/ropojonesbup/seap-10.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ropojonesbup/seap-10.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\SEAP-10> git remote -v
+origin  https://github.com/ropojonesbup/seap-10.git (fetch)
+origin  https://github.com/ropojonesbup/seap-10.git (push)
+PS C:\SEAP-10> git pull
+fatal: refusing to merge unrelated histories
+PS C:\SEAP-10> git pull origin master 
+From https://github.com/ropojonesbup/seap-10
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+PS C:\SEAP-10> git reset
+PS C:\SEAP-10> git pull
+fatal: refusing to merge unrelated histories
+PS C:\SEAP-10> git reset
+PS C:\SEAP-10> git reset --merge    
+PS C:\SEAP-10> git pull
+fatal: refusing to merge unrelated histories
+PS C:\SEAP-10> git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 5 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+nothing to commit, working tree clean
+PS C:\SEAP-10> git pull rebase --continue
+error: unknown option `continue'
+usage: git pull [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --recurse-submodules[=<on-demand>]
+                          control for recursive fetching of submodules
+
+Options related to merging
+    -r, --rebase[=(false|true|merges|interactive)]
+                          incorporate changes by rebasing rather than merging
+    -n                    do not show a diffstat at the end of the merge
+    --stat                show a diffstat at the end of the merge
+    --log[=<n>]           add (at most <n>) entries from shortlog to merge commit message
+    --signoff[=...]       add a Signed-off-by trailer
+    --squash              create a single commit instead of doing a merge
+    --commit              perform a commit if the merge succeeds (default)
+    --edit                edit message before committing
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --ff                  allow fast-forward
+    --ff-only             abort if fast-forward is not possible
+    --verify              control use of pre-merge-commit and commit-msg hooks
+    --verify-signatures   verify that the named commit has a valid GPG signature
+    --autostash           automatically stash/stash pop before and after
+    -s, --strategy <strategy>
+                          merge strategy to use
+    -X, --strategy-option <option=value>
+                          option for selected merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+    --allow-unrelated-histories
+                          allow merging unrelated histories
+
+Options related to fetching
+    --all                 fetch from all remotes
+    -a, --append          append to .git/FETCH_HEAD instead of overwriting
+    --upload-pack <path>  path to upload pack on remote end
+    -f, --force           force overwrite of local branch
+    -t, --tags            fetch all tags and associated objects
+    -p, --prune           prune remote-tracking branches no longer on remote
+    -j, --jobs[=<n>]      number of submodules pulled in parallel
+    --dry-run             dry run
+    -k, --keep            keep downloaded pack
+    --depth <depth>       deepen history of shallow clone
+    --shallow-since <time>
+                          deepen history of shallow repository based on time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --deepen <n>          deepen history of shallow clone
+    --unshallow           convert to a complete repository
+    --update-shallow      accept refs that update .git/shallow
+    --refmap <refmap>     specify fetch refmap
+    -o, --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --negotiation-tip <revision>
+                          report that we have only objects reachable from this object
+    --show-forced-updates check for forced-updates on all updated branches
+    --set-upstream        set upstream for git pull/fetch
+
+PS C:\SEAP-10> git rebase --continue
+fatal: No rebase in progress?
+PS C:\SEAP-10> git pull origin master --allow-unrelated-histories
+From https://github.com/ropojonesbup/seap-10
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ Examples/csharp/Program.cs                         |   2 +
+ Examples/csharp/app.cs                             |   0
+ Examples/csharp/bin/Debug/net9.0/csharp.deps.json  |  23 ++++
+ Examples/csharp/bin/Debug/net9.0/csharp.dll        | Bin 0 -> 4608 bytes
+ Examples/csharp/bin/Debug/net9.0/csharp.exe        | Bin 0 -> 145408 bytes
+ Examples/csharp/bin/Debug/net9.0/csharp.pdb        | Bin 0 -> 10644 bytes
+ .../bin/Debug/net9.0/csharp.runtimeconfig.json     |  12 ++
+ Examples/csharp/csharp.csproj                      |  10 ++
+ .../.NETCoreApp,Version=v9.0.AssemblyAttributes.cs |   4 +
+ Examples/csharp/obj/Debug/net9.0/apphost.exe       | Bin 0 -> 145408 bytes
+ .../csharp/obj/Debug/net9.0/csharp.AssemblyInfo.cs |  22 ++++
+ .../Debug/net9.0/csharp.AssemblyInfoInputs.cache   |   1 +
+ ...sharp.GeneratedMSBuildEditorConfig.editorconfig |  15 +++
+ .../obj/Debug/net9.0/csharp.GlobalUsings.g.cs      |   8 ++
+ .../csharp/obj/Debug/net9.0/csharp.assets.cache    | Bin 0 -> 234 bytes
+ .../net9.0/csharp.csproj.CoreCompileInputs.cache   |   1 +
+ .../net9.0/csharp.csproj.FileListAbsolute.txt      |  14 +++
+ Examples/csharp/obj/Debug/net9.0/csharp.dll        | Bin 0 -> 4608 bytes
+ .../obj/Debug/net9.0/csharp.genruntimeconfig.cache |   1 +
+ Examples/csharp/obj/Debug/net9.0/csharp.pdb        | Bin 0 -> 10644 bytes
+ Examples/csharp/obj/Debug/net9.0/ref/csharp.dll    | Bin 0 -> 5120 bytes
+ Examples/csharp/obj/Debug/net9.0/refint/csharp.dll | Bin 0 -> 5120 bytes
+ .../csharp/obj/csharp.csproj.nuget.dgspec.json     |  74 +++++++++++++
+ Examples/csharp/obj/csharp.csproj.nuget.g.props    |  16 +++
+ Examples/csharp/obj/csharp.csproj.nuget.g.targets  |   2 +
+ Examples/csharp/obj/project.assets.json            |  80 ++++++++++++++
+ Examples/csharp/obj/project.nuget.cache            |   8 ++
+ Examples/python/app.py                             |   0
+ Examples/typescript/app.js                         |   0
+ Projects/banking/csharp/Program.cs                 | 123 +++++++++++++++++++++
+ .../csharp/bin/Debug/net9.0/csharp.deps.json       |  23 ++++
+ .../banking/csharp/bin/Debug/net9.0/csharp.dll     | Bin 0 -> 6144 bytes
+ .../banking/csharp/bin/Debug/net9.0/csharp.exe     | Bin 0 -> 145408 bytes
+ .../banking/csharp/bin/Debug/net9.0/csharp.pdb     | Bin 0 -> 11112 bytes
+ .../bin/Debug/net9.0/csharp.runtimeconfig.json     |  12 ++
+ Projects/banking/csharp/csharp.csproj              |  10 ++
+ .../.NETCoreApp,Version=v9.0.AssemblyAttributes.cs |   4 +
+ .../banking/csharp/obj/Debug/net9.0/apphost.exe    | Bin 0 -> 145408 bytes
+ .../csharp/obj/Debug/net9.0/csharp.AssemblyInfo.cs |  22 ++++
+ .../Debug/net9.0/csharp.AssemblyInfoInputs.cache   |   1 +
+ ...sharp.GeneratedMSBuildEditorConfig.editorconfig |  15 +++
+ .../obj/Debug/net9.0/csharp.GlobalUsings.g.cs      |   8 ++
+ .../csharp/obj/Debug/net9.0/csharp.assets.cache    | Bin 0 -> 234 bytes
+ .../net9.0/csharp.csproj.CoreCompileInputs.cache   |   1 +
+ .../net9.0/csharp.csproj.FileListAbsolute.txt      |  14 +++
+ .../banking/csharp/obj/Debug/net9.0/csharp.dll     | Bin 0 -> 6144 bytes
+ .../obj/Debug/net9.0/csharp.genruntimeconfig.cache |   1 +
+ .../banking/csharp/obj/Debug/net9.0/csharp.pdb     | Bin 0 -> 11112 bytes
+ .../banking/csharp/obj/Debug/net9.0/ref/csharp.dll | Bin 0 -> 5120 bytes
+ .../csharp/obj/Debug/net9.0/refint/csharp.dll      | Bin 0 -> 5120 bytes
+ .../csharp/obj/csharp.csproj.nuget.dgspec.json     |  74 +++++++++++++
+ .../banking/csharp/obj/csharp.csproj.nuget.g.props |  16 +++
+ .../csharp/obj/csharp.csproj.nuget.g.targets       |   2 +
+ Projects/banking/csharp/obj/project.assets.json    |  80 ++++++++++++++
+ Projects/banking/csharp/obj/project.nuget.cache    |   8 ++
+ Projects/banking/java/main.java                    |   9 ++
+ Projects/banking/python/main.py                    |   9 ++
+ Projects/banking/readme.txt                        |   9 ++
+ Projects/banking/typescript/index.js               |  11 ++
+ SEAP-10.sln                                        |  42 +++++++
+ gitcommands.txt                                    |  29 +++++
+ 61 files changed, 816 insertions(+)
+ create mode 100644 Examples/csharp/Program.cs
+ create mode 100644 Examples/csharp/app.cs
+ create mode 100644 Examples/csharp/bin/Debug/net9.0/csharp.deps.json
+ create mode 100644 Examples/csharp/bin/Debug/net9.0/csharp.dll
+ create mode 100644 Examples/csharp/bin/Debug/net9.0/csharp.exe
+ create mode 100644 Examples/csharp/bin/Debug/net9.0/csharp.pdb
+ create mode 100644 Examples/csharp/bin/Debug/net9.0/csharp.runtimeconfig.json
+ create mode 100644 Examples/csharp/csharp.csproj
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/apphost.exe
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.AssemblyInfo.cs
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.AssemblyInfoInputs.cache
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.GlobalUsings.g.cs
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.assets.cache
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.csproj.CoreCompileInputs.cache
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.csproj.FileListAbsolute.txt
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.dll
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.genruntimeconfig.cache
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/csharp.pdb
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/ref/csharp.dll
+ create mode 100644 Examples/csharp/obj/Debug/net9.0/refint/csharp.dll
+ create mode 100644 Examples/csharp/obj/csharp.csproj.nuget.dgspec.json
+ create mode 100644 Examples/csharp/obj/csharp.csproj.nuget.g.props
+ create mode 100644 Examples/csharp/obj/csharp.csproj.nuget.g.targets
+ create mode 100644 Examples/csharp/obj/project.assets.json
+ create mode 100644 Examples/csharp/obj/project.nuget.cache
+ create mode 100644 Examples/python/app.py
+ create mode 100644 Examples/typescript/app.js
+ create mode 100644 Projects/banking/csharp/Program.cs
+ create mode 100644 Projects/banking/csharp/bin/Debug/net9.0/csharp.deps.json
+ create mode 100644 Projects/banking/csharp/bin/Debug/net9.0/csharp.dll
+ create mode 100644 Projects/banking/csharp/bin/Debug/net9.0/csharp.exe
+ create mode 100644 Projects/banking/csharp/bin/Debug/net9.0/csharp.pdb
+ create mode 100644 Projects/banking/csharp/bin/Debug/net9.0/csharp.runtimeconfig.json
+ create mode 100644 Projects/banking/csharp/csharp.csproj
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/apphost.exe
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.AssemblyInfo.cs
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.AssemblyInfoInputs.cache
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.GlobalUsings.g.cs
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.assets.cache
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.csproj.CoreCompileInputs.cache
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.csproj.FileListAbsolute.txt
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.dll
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.genruntimeconfig.cache
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/csharp.pdb
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/ref/csharp.dll
+ create mode 100644 Projects/banking/csharp/obj/Debug/net9.0/refint/csharp.dll
+ create mode 100644 Projects/banking/csharp/obj/csharp.csproj.nuget.dgspec.json
+ create mode 100644 Projects/banking/csharp/obj/csharp.csproj.nuget.g.props
+ create mode 100644 Projects/banking/csharp/obj/csharp.csproj.nuget.g.targets
+ create mode 100644 Projects/banking/csharp/obj/project.assets.json
+ create mode 100644 Projects/banking/csharp/obj/project.nuget.cache
+ create mode 100644 Projects/banking/java/main.java
+ create mode 100644 Projects/banking/python/main.py
+ create mode 100644 Projects/banking/readme.txt
+ create mode 100644 Projects/banking/typescript/index.js
+ create mode 100644 SEAP-10.sln
+ create mode 100644 gitcommands.txt
+PS C:\SEAP-10> git merge origin origin/master                    
+merge: origin - not something we can merge
+PS C:\SEAP-10> git add .
+PS C:\SEAP-10> git commit -m "Solving measures"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\SEAP-10> git push
+Enumerating objects: 76, done.
+Counting objects: 100% (76/76), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (62/62), done.
+Writing objects: 100% (75/75), 92.96 KiB | 1.16 MiB/s, done.
+Total 75 (delta 14), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (14/14), done.
+To https://github.com/ropojonesbup/seap-10.git
+   eeae127..43a058e  master -> master
+PS C:\SEAP-10> git branch ADemilade
+PS C:\SEAP-10> 
