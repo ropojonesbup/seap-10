@@ -1,0 +1,14 @@
+C:\SEAP-10\Projects\banking\csharp\bin\Debug\net9.0\csharp.exe
+C:\SEAP-10\Projects\banking\csharp\bin\Debug\net9.0\csharp.deps.json
+C:\SEAP-10\Projects\banking\csharp\bin\Debug\net9.0\csharp.runtimeconfig.json
+C:\SEAP-10\Projects\banking\csharp\bin\Debug\net9.0\csharp.dll
+C:\SEAP-10\Projects\banking\csharp\bin\Debug\net9.0\csharp.pdb
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.AssemblyInfoInputs.cache
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.AssemblyInfo.cs
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.csproj.CoreCompileInputs.cache
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.dll
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\refint\csharp.dll
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.pdb
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\csharp.genruntimeconfig.cache
+C:\SEAP-10\Projects\banking\csharp\obj\Debug\net9.0\ref\csharp.dll

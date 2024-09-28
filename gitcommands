@@ -1,0 +1,11 @@
+Create a local Git Repositiory
+    git init
+
+Link local repository to remote git 
+    git remote add origin url
+
+Check the state of the remote repository
+    git remote -v
+
+ Add local file or code to local repository 
+    git add (. / filename)
