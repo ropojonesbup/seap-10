@@ -1,0 +1,7 @@
+system.output.printline ("")
+system.output.printline ("")
+system.output.printline ("*************")
+system.output.printline ("")
+system.output.printline ("Welcome SEAP-F1")
+system.output.printline ("**********")
+system.output.printline ("")
