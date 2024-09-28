@@ -1,7 +1,5 @@
-system.output.printline ("")
-system.output.printline ("")
-system.output.printline ("*************")
-system.output.printline ("")
-system.output.printline ("Welcome SEAP-F1")
-system.output.printline ("**********")
-system.output.printline ("")
+public class App {
+    public static void main(String[] args) {
+        System.out.println("This is my App!");
+    }
+}
