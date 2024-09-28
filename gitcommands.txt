@@ -1,0 +1,32 @@
+Create a local Git Respository
+    git init
+
+link local respositiory to remote git
+    git remote add origin url
+
+Link local respositiory branch to remote respository branch git
+    git push
+Check the state of the remote respository 
+     git remote -v
+
+commit your changes to the respository. a permanent sava to create a version of your source code
+
+Add local file or code to local respository
+    git add (. / filename)
+    git config --global user.email "you@exmple.com"
+    git config --global user.name "Your Name"
+
+Push your local respositiory to your respository
+   git push 
+
+fetch data from your local respositiory to your respository
+   git push 
+
+list all the existing branches in your respository
+   git branch --list
+
+Create a new git branch
+   git branch nameofbranch
+
+Navigate between git branch
+   git branch nameofbranch
