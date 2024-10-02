@@ -1,0 +1,14 @@
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/bin/Debug/net8.0/Programing-languages
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/bin/Debug/net8.0/Programing-languages.deps.json
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/bin/Debug/net8.0/Programing-languages.runtimeconfig.json
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/bin/Debug/net8.0/Programing-languages.dll
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/bin/Debug/net8.0/Programing-languages.pdb
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.AssemblyInfoInputs.cache
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.AssemblyInfo.cs
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.csproj.CoreCompileInputs.cache
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.dll
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/refint/Programing-languages.dll
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.pdb
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/Programing-languages.genruntimeconfig.cache
+/Users/Projects/Buildup/SEAP/Examples/Programing-languages/obj/Debug/net8.0/ref/Programing-languages.dll
