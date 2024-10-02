@@ -16,3 +16,13 @@ Global Configuration Setting for Git
 
 Push data in your local repositiory to your remote repository
     git push 
+
+View branches 
+    git branch --list
+
+Create branch
+    git branch nameofbranch
+
+Switch to branch
+    git checkout nameofbranch
+
