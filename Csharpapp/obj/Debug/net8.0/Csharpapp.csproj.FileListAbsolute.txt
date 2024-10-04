@@ -1,0 +1,14 @@
+C:\SEAP-10\Csharpapp\bin\Debug\net8.0\Csharpapp.exe
+C:\SEAP-10\Csharpapp\bin\Debug\net8.0\Csharpapp.deps.json
+C:\SEAP-10\Csharpapp\bin\Debug\net8.0\Csharpapp.runtimeconfig.json
+C:\SEAP-10\Csharpapp\bin\Debug\net8.0\Csharpapp.dll
+C:\SEAP-10\Csharpapp\bin\Debug\net8.0\Csharpapp.pdb
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.AssemblyInfoInputs.cache
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.AssemblyInfo.cs
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.csproj.CoreCompileInputs.cache
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.dll
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\refint\Csharpapp.dll
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.pdb
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\Csharpapp.genruntimeconfig.cache
+C:\SEAP-10\Csharpapp\obj\Debug\net8.0\ref\Csharpapp.dll
